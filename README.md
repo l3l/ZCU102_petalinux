@@ -183,7 +183,7 @@ CC = /tools/Xilinx/PetaLinux/2018.3/tools/linux-i386/aarch64-none-elf/bin/aarch6
 
 ## Changelog
 
-Detailed changes for each release are documented in the [release notes](https://github.com/l3l/github/releases).
+Detailed changes for each release are documented in the [release notes](https://github.com/l3l/ZCU102_petalinux/releases).
 
 ### Stay In Touch
 
@@ -191,7 +191,7 @@ Detailed changes for each release are documented in the [release notes](https://
 
 ## Contribution
 
-Please make sure to read the [Blog Guide](https://git-scm.com/book/ko/v2/Git-브랜치-리모트-브랜치#_delete_branches) before making a pull request. If you want to add more information, add it with a pull request to [this page](https://github.com/l3l/github.git)!
+Please make sure to read the [Blog Guide]() before making a pull request. If you want to add more information, add it with a pull request to [this page](https://github.com/l3l/ZCU102_petalinux.git)!
 
 Thank you to all the people who already contributed to ZCU102_petalinux!
 
