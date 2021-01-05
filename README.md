@@ -72,9 +72,9 @@ Disable 'General setup > Initial RAM file system and RAM disk (initramfs/initrd)
 Disable 'Device Drivers > Hardware Monitoring support > PMBus support > Maxim MAX20751'  
 Disable 'Bus Support > PCI support'  
 Enable 'Kernel hacking > Tracers > Kernel Function Tracer'  
+```
 
 Save and Exit the kernel configuration
-```
 
 ### Configure the rootfs
 ```
