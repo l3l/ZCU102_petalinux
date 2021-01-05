@@ -4,7 +4,7 @@
 How to make petalinux on ZCU102 board
 
 ## Getting Started
-###Install packages
+### Install packages
 ```
 $ sudo apt install -y python gawk gcc git make net-tools libncurses5-dev libncursesw5-dev zlib1g:i386 libssl-dev flex bison libselinux1 gnupg wget diffstat chrpath socat xterm autoconf libtool tar unzip texinfo zlib1g-dev gcc-multilib build-essential libsdl1.2-dev libglib2.0-dev screen pax gzip avrdude tftp tftpd-hpa tftp-server vim
 $ sudo apt autoremove -y
@@ -25,16 +25,18 @@ $ chmod +x ~/Downloads/petalinux-v2018.3-final-installer.run
 $ ~/Downloads/petalinux-v2018.3-final-installer.run /tools/Xilinx/PetaLinux/2018.3
 ```
 
-/************************* Configure the Petalinux project with the hardware description file *************************/
+### Configure the Petalinux project with the hardware description file
+```
 $ source settings.sh
 $ petalinux-create --type project --template zynqMP --name ultra96-petalinuxbase
 or
 $ petalinux-create --type project --source ~/Downloads/xilinx-zcu102-zu9-es2-rev1.0-v2018.3-final.bsp --name zcu102-petalinuxbase
 $ cd zcu102-petalinuxbase
 $ petalinux-config --get-hw-description=~/project_5_petalinuxBase
+```
 
-Enable 'Image Packaging Configuration > Root file system type > SD card'
-Disable 'DTG Settings > Kernel Bootargs > [] generate boot args automatically'
+Enable 'Image Packaging Configuration > Root file system type > SD card'   
+Disable 'DTG Settings > Kernel Bootargs > [] generate boot args automatically'  
 name
 > zcu102-rev1.0
 or
