@@ -13,7 +13,7 @@ $ sudo service tftpd-hpa status
 $ sudo mkdir -p /tools/Xilinx/PetaLinux/2018.3
 $ sudo chmod -R o+x /tools	
 (dir: 775, file: 644)
-$ sudo chown -R peta:peta /tools
+$ sudo chown -R <Ubuntu user name>:<Ubuntu user name> /tools
 $ cd /tools/Xilinx/PetaLinux/2018.3
 
 $ mkdir ~/project_5_petalinuxBase
@@ -195,11 +195,11 @@ Please make sure to read the [Blog Guide]() before making a pull request. If you
 
 Thank you to all the people who already contributed to ZCU102_petalinux!
 
-ref>
-https://reiwaembedded.com/ultra96-v2-zynq-ultrascale-mpsoc-custom-image-creation-part-2-petalinux-approach/  
-https://reiwaembedded.com/ultra96-v2-zynq-ultrascale-mpsoc-custom-image-creation-part-1-hardware-generation/  
-https://forums.xilinx.com/t5/Embedded-Linux/Petalinux-installation-error-on-ubuntu-VM/td-p/987948  
-https://xilinx-wiki.atlassian.net/wiki/spaces/A/pages/18841937/Zynq+UltraScale+MPSoC+Ubuntu+part+2+-+Building+and+Running+the+Ubuntu+Desktop+From+Sources  
+ref>\
+https://reiwaembedded.com/ultra96-v2-zynq-ultrascale-mpsoc-custom-image-creation-part-2-petalinux-approach/\
+https://reiwaembedded.com/ultra96-v2-zynq-ultrascale-mpsoc-custom-image-creation-part-1-hardware-generation/\
+https://forums.xilinx.com/t5/Embedded-Linux/Petalinux-installation-error-on-ubuntu-VM/td-p/987948\
+https://xilinx-wiki.atlassian.net/wiki/spaces/A/pages/18841937/Zynq+UltraScale+MPSoC+Ubuntu+part+2+-+Building+and+Running+the+Ubuntu+Desktop+From+Sources\
 
 
 ## License
