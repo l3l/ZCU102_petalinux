@@ -29,9 +29,7 @@ copy design_1_wrapper.hdf to project_5_petalinuxBase
 ### Configure the Petalinux project with the hardware description file
 ```
 $ source settings.sh
-$ petalinux-create --type project --template zynqMP --name ultra96-petalinuxbase
-or
-$ petalinux-create --type project --source ~/Downloads/xilinx-zcu102-zu9-es2-rev1.0-v2018.3-final.bsp --name zcu102-petalinuxbase
+$ petalinux-create --type project --template zynqMP --name zcu102-petalinuxbase
 $ cd zcu102-petalinuxbase
 $ petalinux-config --get-hw-description=~/project_5_petalinuxBase
 ```
