@@ -45,14 +45,8 @@ or
 > earlycon earlyprintk clk_ignore_unused root=/dev/mmcblk0p2 rw rootwait uio_pdrv_genirq.of_id=generic-uio cma=1024M rootfstype=ext3 init=/bin/sh stdout-path=serial0:115200n8
 ```
 
-```
-Enable 'Subsystem AUTO Hardware Settings > Serial Settings > Primary stdin/stdout ( ) > psu_uart_1'
-Enable 'Subsystem AUTO Hardware Settings > Memory Settings > System memory size > 0x6FFFFFFF'
-Enable 'Subsystem AUTO Hardware Settings > SD/SDIO Settings > Primary SD/SDIO ( ) > psu_sd_0'
-Enable 'ARM Trusted Firmware Compilation Configuration > ATF memory settings'
-```
+Save and Exit the Petalinux project configuration\
 
-Save and Exit the Petalinux project configuration  
 ```
 $ petalinux-build -c bootloader -x distclean
 ```
