@@ -37,10 +37,6 @@ $ petalinux-config --get-hw-description=~/project_5_petalinuxBase
 ```
 Enable 'Image Packaging Configuration > Root file system type > SD card'   
 Disable 'DTG Settings > Kernel Bootargs > [] generate boot args automatically'  
-name
-> zcu102-rev1.0
-or
-> avnet-ultra96-rev1
 Set following kernel bootargs
 > earlycon clk_ignore_unused earlyprintk root=/dev/mmcblk0p2 rw rootwait cma=1024M
 or
