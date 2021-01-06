@@ -196,11 +196,10 @@ Please make sure to read the [Blog Guide]() before making a pull request. If you
 Thank you to all the people who already contributed to ZCU102_petalinux!
 
 ref>
-https://reiwaembedded.com/ultra96-v2-zynq-ultrascale-mpsoc-custom-image-creation-part-2-petalinux-approach/
-https://reiwaembedded.com/ultra96-v2-zynq-ultrascale-mpsoc-custom-image-creation-part-1-hardware-generation/
-https://forums.xilinx.com/t5/Embedded-Linux/Petalinux-installation-error-on-ubuntu-VM/td-p/987948
-
-https://xilinx-wiki.atlassian.net/wiki/spaces/A/pages/18841937/Zynq+UltraScale+MPSoC+Ubuntu+part+2+-+Building+and+Running+the+Ubuntu+Desktop+From+Sources
+https://reiwaembedded.com/ultra96-v2-zynq-ultrascale-mpsoc-custom-image-creation-part-2-petalinux-approach/  
+https://reiwaembedded.com/ultra96-v2-zynq-ultrascale-mpsoc-custom-image-creation-part-1-hardware-generation/  
+https://forums.xilinx.com/t5/Embedded-Linux/Petalinux-installation-error-on-ubuntu-VM/td-p/987948  
+https://xilinx-wiki.atlassian.net/wiki/spaces/A/pages/18841937/Zynq+UltraScale+MPSoC+Ubuntu+part+2+-+Building+and+Running+the+Ubuntu+Desktop+From+Sources  
 
 
 ## License
