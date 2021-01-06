@@ -24,6 +24,7 @@ $ mkdir ~/build_results
 $ chmod +x ~/Downloads/petalinux-v2018.3-final-installer.run
 $ ~/Downloads/petalinux-v2018.3-final-installer.run /tools/Xilinx/PetaLinux/2018.3
 ```
+copy design_1_wrapper.hdf to project_5_petalinuxBase
 
 ### Configure the Petalinux project with the hardware description file
 ```
