@@ -161,9 +161,9 @@ Device     Boot   Start       End   Sectors   Size Id Type
 $ mkdir ~/mnt_dir
 $ sudo fdisk -l
 $ sudo mount /dev/sdc1 ~/mnt_dir
-$ df -h
 $ sudo umount ~/mnt_dir
 $ df -h
+$ du -hd1
 $ sudo eject /dev/sdc
 ```
 
