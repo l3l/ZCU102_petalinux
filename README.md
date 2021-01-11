@@ -156,7 +156,6 @@ Device     Boot   Start       End   Sectors   Size Id Type
 ```
 
 ### Copy to SD card
-partition 1, boot는 cp로 BOOT.BIN, image.ub 복사\
 #### How to mount
 ```
 $ mkdir ~/mnt_dir
@@ -167,7 +166,9 @@ $ sudo umount ~/mnt_dir
 $ df -h
 $ sudo eject /dev/sdc
 ```
+
 #### Copy BOOT.BIN and image.ub to `boot` directory
+partition 1, boot는 cp로 BOOT.BIN, image.ub 복사\
 ```
 $ mkdir ~/mnt_dir
 $ sudo fdisk -l
