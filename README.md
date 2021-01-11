@@ -155,7 +155,9 @@ Device     Boot   Start       End   Sectors   Size Id Type
 /dev/sdc2       1886208 124735487 122849280  58.6G 83 Linux
 ```
 
-### Mount 하기
+### Copy to SD card
+partition 1, boot는 cp로 BOOT.BIN, image.ub 복사\
+#### How to mount
 ```
 $ mkdir ~/mnt_dir
 $ sudo fdisk -l
@@ -165,12 +167,21 @@ $ sudo umount ~/mnt_dir
 $ df -h
 $ sudo eject /dev/sdc
 ```
+#### Copy BOOT.BIN and image.ub to `boot` directory
+```
+$ mkdir ~/mnt_dir
+$ sudo fdisk -l
+$ sudo mount /dev/sdc1 ~/mnt_dir
+$ cp /tools/Xilinx/PetaLinux/2018.3/zcu102-petalinuxbase/images/linux/BOOT.BIN ~/mnt_dir
+$ cp /tools/Xilinx/PetaLinux/2018.3/zcu102-petalinuxbase/images/linux/image.ub ~/mnt_dir
+$ sudo umount ~/mnt_dir
+```
 
-### File 복사하기
-partition 1, boot는 cp로 BOOT.BIN, image.ub 복사  
-partition 2, root는 dd로 rootfs.ext4를 image 복사  
+#### Copy the main directories to `root` directory
+partition 2, root는 dd로 rootfs.ext4를 image 복사\ 
 ```
 $ sudo dd if=rootfs.ext4 of=/dev/sdc2
+$ sudo eject /dev/sdc
 ```
 
 ### Cross Compile 하기
