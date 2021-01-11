@@ -112,7 +112,8 @@ $ rm rootfs.tar.gz
 $ petalinux-build -x mrproper
 ```
 
-### SD card partition 생성하기
+### SD card
+#### Generate SD card partition
 ```
 $ sudo fdisk -l
 $ sudo fdisk /dev/sdc
@@ -134,9 +135,9 @@ partition 2
 > t > 2 > L > 83
 > w
 ```
-partition formatting 필요
+You must do partition formatting
 
-### Partition formatting 하기
+#### Partition formatting
 ```
 $ sudo mkfs.vfat -F 32 -n boot /dev/sdc1
 (> mount시 권한이 peta:peta로 됨)
