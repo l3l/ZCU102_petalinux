@@ -169,7 +169,7 @@ $ sudo eject /dev/sdc
 partition 1, boot는 cp로 BOOT.BIN, image.ub 복사  
 partition 2, root는 dd로 rootfs.ext4를 image 복사  
 ```
-$ dd if=rootfs.ext4 of=/dev/sdc2
+$ sudo dd if=rootfs.ext4 of=/dev/sdc2
 ```
 
 ### Cross Compile 하기
