@@ -52,6 +52,14 @@ Save and Exit the Petalinux project configuration\
 $ petalinux-build -c bootloader -x distclean
 ```
 
+### Before kernel configuration
+```
+$ sudo apt-get install screen
+$ vi /tools/Xilinx/PetaLinux/2018.3/zcu102-petalinuxbase/project-spec/meta-user/conf/petalinuxbsp.conf
+
+#OE_TERMINAL = "tmux" >> OE_TERMINAL = "screen"
+```
+
 ### Configure the kernel
 ```
 $ petalinux-config -c kernel
