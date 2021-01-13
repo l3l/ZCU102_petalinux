@@ -103,14 +103,10 @@ $ petalinux-package --boot --fsbl images/linux/zynqmp_fsbl.elf --u-boot images/l
 $ cp images/linux/BOOT.BIN ~/build_results
 $ cp images/linux/image.ub ~/build_results
 $ cp images/linux/rootfs.tar.gz ~/build_results
+```
+Go to `Copy to SD card`
 
-$ mkdir ~/build_results/rootfsDIR
-$ cd ~/build_results/rootfsDIR
-$ cp ../rootfs.tar.gz .
-$ tar -zxvf rootfs.tar.gz
-$ rm rootfs.tar.gz
-
-
+```
 $ petalinux-build -x mrproper
 ```
 
