@@ -13,6 +13,7 @@ $ sudo service tftpd-hpa status
 $ sudo mkdir -p /tools/Xilinx/PetaLinux/2018.3
 $ sudo chmod -R o+x /tools	
 (dir: 775, file: 644)
+$ sudo chown -R $(whoami):$(whoami) /tools
 $ sudo chown -R <Ubuntu user name>:<Ubuntu user name> /tools
 $ cd /tools/Xilinx/PetaLinux/2018.3
 
