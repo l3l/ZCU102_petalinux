@@ -166,7 +166,7 @@ $ sudo eject /dev/sdc
 ```
 
 #### Copy BOOT.BIN and image.ub to `boot` directory
-partition 1, boot는 cp로 BOOT.BIN, image.ub 복사
+On partition 1 which is boot directory, copy `BOOT.BIN`, `image.ub` by `cp`
 ```
 $ mkdir ~/mnt_dir
 $ sudo fdisk -l
@@ -177,7 +177,7 @@ $ sudo umount ~/mnt_dir
 ```
 
 #### Copy the main directories to `root` directory
-partition 2, root는 dd로 rootfs.ext4를 image 복사
+On partition 2 which is root directory, copy the image of `rootfs.ext4` by `dd`
 ```
 $ sudo dd if=rootfs.ext4 of=/dev/sdc2
 $ sudo eject /dev/sdc
