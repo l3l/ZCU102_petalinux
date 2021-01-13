@@ -136,7 +136,6 @@ partition 2
 You must do partition formatting
 
 2. #### Partition formatting
-1. #### Partition formatting
 ```
 $ sudo mkfs.vfat -F 32 -n boot /dev/sdc1
 (> mount시 권한이 peta:peta로 됨)
@@ -155,7 +154,7 @@ Device     Boot   Start       End   Sectors   Size Id Type
 ```
 
 ### Copy to SD card
-#### How to mount
+- #### How to mount
 ```
 $ mkdir ~/mnt_dir
 $ sudo fdisk -l
@@ -166,7 +165,7 @@ $ du -hd1
 $ sudo eject /dev/sdc
 ```
 
-#### Copy BOOT.BIN and image.ub to `boot` directory
+- #### Copy BOOT.BIN and image.ub to `boot` directory
 Copy `BOOT.BIN`, `image.ub` by `cp` on partition 1, `boot` directory.
 ```
 $ mkdir ~/mnt_dir
@@ -177,7 +176,7 @@ $ cp /tools/Xilinx/PetaLinux/2018.3/zcu102-petalinuxbase/images/linux/image.ub ~
 $ sudo umount ~/mnt_dir
 ```
 
-#### Copy the main directories to `root` directory
+- #### Copy the main directories to `root` directory
 Copy the image of `rootfs.ext4` by `dd` on partition 2, `root` directory.
 ```
 $ sudo dd if=rootfs.ext4 of=/dev/sdc2
