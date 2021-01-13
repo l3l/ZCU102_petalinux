@@ -183,7 +183,7 @@ $ sudo dd if=rootfs.ext4 of=/dev/sdc2
 $ sudo eject /dev/sdc
 ```
 
-### Cross Compile 하기
+### Cross Compile
 ```
 echo $PETALINUX
 CC = /tools/Xilinx/PetaLinux/2018.3/tools/linux-i386/aarch64-none-elf/bin/aarch64-none-elf-gcc 
