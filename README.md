@@ -77,6 +77,7 @@ Enable 'Kernel hacking > Tracers > Kernel Function Tracer'
 Save and Exit the kernel configuration
 
 ### Configure the rootfs
+- packages
 ```
 $ petalinux-config -c rootfs
 ```
@@ -85,7 +86,6 @@ Filesystem Packages --->
     misc --->
         [*] packagegroup-petalinux-self-hosted
 ```
-
 - device tree
 ```
 $ vi /tools/Xilinx/PetaLinux/2018.3/zcu102-petalinuxbase/project-spec/meta-user/recipes-bsp/device-tree/files/system-user.dtsi
