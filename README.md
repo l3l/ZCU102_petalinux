@@ -79,9 +79,17 @@ Save and Exit the kernel configuration
 ### Configure the rootfs
 ```
 $ petalinux-config -c rootfs
+```
+```
+Filesystem Packages --->
+    misc --->
+        [*] packagegroup-petalinux-self-hosted
+```
 
+```
 $ vi /tools/Xilinx/PetaLinux/2018.3/zcu102-petalinuxbase/project-spec/meta-user/recipes-bsp/device-tree/files/system-user.dtsi
-
+```
+```
   /include/ "system-conf.dtsi"                 
   / {
       cdmatest_0: cdmatest@0 {
