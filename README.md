@@ -86,6 +86,7 @@ Filesystem Packages --->
         [*] packagegroup-petalinux-self-hosted
 ```
 
+- device tree
 ```
 $ vi /tools/Xilinx/PetaLinux/2018.3/zcu102-petalinuxbase/project-spec/meta-user/recipes-bsp/device-tree/files/system-user.dtsi
 ```
