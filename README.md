@@ -112,6 +112,7 @@ $ petalinux-build -x mrproper
 
 ### SD card
 1. #### Generate SD card partition
+#### 1. Generate SD card partition
 ```
 $ sudo fdisk -l
 $ sudo fdisk /dev/sdc
