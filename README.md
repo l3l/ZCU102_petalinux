@@ -166,7 +166,7 @@ $ sudo eject /dev/sdc
 ```
 
 #### Copy BOOT.BIN and image.ub to `boot` directory
-On partition 1 which is boot directory, copy `BOOT.BIN`, `image.ub` by `cp`
+On partition 1 which is `boot` directory, copy `BOOT.BIN`, `image.ub` by `cp`
 ```
 $ mkdir ~/mnt_dir
 $ sudo fdisk -l
@@ -177,7 +177,7 @@ $ sudo umount ~/mnt_dir
 ```
 
 #### Copy the main directories to `root` directory
-On partition 2 which is root directory, copy the image of `rootfs.ext4` by `dd`
+On partition 2 which is `root` directory, copy the image of `rootfs.ext4` by `dd`
 ```
 $ sudo dd if=rootfs.ext4 of=/dev/sdc2
 $ sudo eject /dev/sdc
