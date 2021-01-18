@@ -46,7 +46,7 @@ or
 > earlycon earlyprintk clk_ignore_unused root=/dev/mmcblk0p2 rw rootwait uio_pdrv_genirq.of_id=generic-uio cma=1024M rootfstype=ext3 init=/bin/sh stdout-path=serial0:115200n8
 ```
 
-Save and Exit the Petalinux project configuration\
+Save and Exit the Petalinux project configuration
 
 ```
 $ petalinux-build -c bootloader -x distclean
@@ -118,6 +118,16 @@ Go to `Copy to SD card`
 ```
 $ petalinux-build -x mrproper
 ```
+
+### Another method to use Petalinux
+Using the prebuilt image from `https://xilinx-wiki.atlassian.net/wiki/spaces/A/pages/18842112/Zynq+UltraScale+MPSoC+Ubuntu+part+1+-+Running+the+Pre-Built+Ubuntu+Image+and+Power+Advantage+Tool`.\ 
+Download `https://www.xilinx.com/member/forms/download/design-license-xef.html?filename=zynqus_pwr_zcu102_20171220.zip&akdm=1`.\ 
+```
+unzip zynqus_pwr_zcu102_20171220.zip
+cd zynqus/pwr/sd
+unzip 20171214_zcu102_ubuntu.zip
+```
+- `20171214_zcu102_ubuntu.img` is for `rootfs`
 
 ### SD card
 1. #### Generate SD card partition
