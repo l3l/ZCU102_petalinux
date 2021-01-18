@@ -130,7 +130,7 @@ $ unzip 20171214_zcu102_ubuntu.zip
 ```
 - `20171214_zcu102_ubuntu.img` is for `rootfs`
 ```
-$ sudo dd if=20171214_zcu102_ubuntu.img of=/dev/sdc
+$ sudo dd if=20171214_zcu102_ubuntu.img of=/dev/sdc status=progress
 ```
 
 ### SD card
@@ -202,7 +202,7 @@ $ sudo umount ~/mnt_dir
 - #### Copy the main directories to `root` directory
 Copy the image of `rootfs.ext4` by `dd` on partition 2, `root` directory.
 ```
-$ sudo dd if=rootfs.ext4 of=/dev/sdc2
+$ sudo dd if=rootfs.ext4 of=/dev/sdc2 status=progress
 $ sudo eject /dev/sdc
 ```
 
