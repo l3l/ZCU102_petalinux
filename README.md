@@ -128,7 +128,7 @@ $ cd zynqus/pwr/sd
 $ unzip 20171214_zcu102_ubuntu.zip
 >> 20171214_zcu102_ubuntu.img
 ```
-- `20171214_zcu102_ubuntu.img` is for `rootfs`
+- `20171214_zcu102_ubuntu.img` is for `boot` and `root` directory.
 ```
 $ sudo dd if=20171214_zcu102_ubuntu.img of=/dev/sdc status=progress
 ```
