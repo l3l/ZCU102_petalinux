@@ -120,7 +120,7 @@ $ petalinux-build -x mrproper
 ```
 
 ### Another method to use Petalinux
-Using the prebuilt image from `https://xilinx-wiki.atlassian.net/wiki/spaces/A/pages/18842112/Zynq+UltraScale+MPSoC+Ubuntu+part+1+-+Running+the+Pre-Built+Ubuntu+Image+and+Power+Advantage+Tool`.\ 
+Using the prebuilt image from `https://xilinx-wiki.atlassian.net/wiki/spaces/A/pages/18842112/Zynq+UltraScale+MPSoC+Ubuntu+part+1+-+Running+the+Pre-Built+Ubuntu+Image+and+Power+Advantage+Tool`./ 
 Download `https://www.xilinx.com/member/forms/download/design-license-xef.html?filename=zynqus_pwr_zcu102_20171220.zip&akdm=1`./ 
 ```
 unzip zynqus_pwr_zcu102_20171220.zip
