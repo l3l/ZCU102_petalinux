@@ -205,7 +205,7 @@ $ unzip 20171214_zcu102_ubuntu.zip
 ```
 $ sudo dd if=20171214_zcu102_ubuntu.img of=/dev/sdc status=progress
 ```
-* not /dev/sdc2, use /dev/sdc!!!
+(* not /dev/sdc2, use /dev/sdc!!!)
 
 ### Cross Compile
 ```
