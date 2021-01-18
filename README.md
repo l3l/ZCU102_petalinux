@@ -126,6 +126,7 @@ Download `https://www.xilinx.com/member/forms/download/design-license-xef.html?f
 unzip zynqus_pwr_zcu102_20171220.zip
 cd zynqus/pwr/sd
 unzip 20171214_zcu102_ubuntu.zip
+>> 20171214_zcu102_ubuntu.img
 ```
 - `20171214_zcu102_ubuntu.img` is for `rootfs`
 
