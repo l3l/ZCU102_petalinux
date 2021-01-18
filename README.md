@@ -123,12 +123,15 @@ $ petalinux-build -x mrproper
 Using the prebuilt image from `https://xilinx-wiki.atlassian.net/wiki/spaces/A/pages/18842112/Zynq+UltraScale+MPSoC+Ubuntu+part+1+-+Running+the+Pre-Built+Ubuntu+Image+and+Power+Advantage+Tool`.</br>
 Download `https://www.xilinx.com/member/forms/download/design-license-xef.html?filename=zynqus_pwr_zcu102_20171220.zip&akdm=1`.</br>
 ```
-unzip zynqus_pwr_zcu102_20171220.zip
-cd zynqus/pwr/sd
-unzip 20171214_zcu102_ubuntu.zip
+$ unzip zynqus_pwr_zcu102_20171220.zip
+$ cd zynqus/pwr/sd
+$ unzip 20171214_zcu102_ubuntu.zip
 >> 20171214_zcu102_ubuntu.img
 ```
 - `20171214_zcu102_ubuntu.img` is for `rootfs`
+```
+$ sudo dd if=20171214_zcu102_ubuntu.img of=/dev/sdc2
+```
 
 ### SD card
 1. #### Generate SD card partition
