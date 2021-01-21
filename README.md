@@ -75,6 +75,7 @@ Enable 'Kernel hacking > Tracers > Kernel Function Tracer'
 ```
 Enable 'Device Drivers > Hardware Monitoring support > PMBus support > Maxim MAX20751'  
 ```
+It needs to connect IPs in PL section.
 
 Save and Exit the kernel configuration
 
