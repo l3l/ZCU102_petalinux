@@ -206,7 +206,9 @@ $ unzip 20171214_zcu102_ubuntu.zip
 $ sudo dd if=20171214_zcu102_ubuntu.img of=/dev/sdc status=progress
 ```
 (* not /dev/sdc2, use /dev/sdc!!!)</br>
-It takes very long time.
+It takes very long time.</br>
+
+`$ vi /tools/Xilinx/PetaLinux/2018.3/zcu102-petalinuxbase/components/plnx_workspace/device-tree/device-tree/pl.dsti`
 
 ### Cross Compile
 ```
