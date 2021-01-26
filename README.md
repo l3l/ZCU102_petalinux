@@ -108,12 +108,20 @@ $ vi /tools/Xilinx/PetaLinux/2018.3/zcu102-petalinuxbase/project-spec/meta-user/
 ### Configure the kernel module
 - make module
 ```
+$ cd /tools/Xilinx/PetaLinux/2018.3/zcu102-petalinuxbase
+$ export module_name <module name>
+$ petalinux-create -t modules --name ${module_name} --enable
+```
+
+- build module
+```
+$ petalinux-build -c ${module_name}
 ```
 
 - compiled directory
 ```
 $ cd /tools/Xilinx/PetaLinux/2018.3/zcu102-petalinuxbase/build/tmp/sysroots-components/zcu102_zynqmp/psr64/lib/modules/4.14.0-xilinx-v2018.3/extra
-$ ls
+$ ls ${module_name}
 ```
 
 
