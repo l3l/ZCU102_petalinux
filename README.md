@@ -118,6 +118,7 @@ $ petalinux-create -t modules --name ${module_name} --enable
 ```
 cd ${baseDir}/project-spec/meta-user/recipes-modules/${module_name}/files
 vi ${module_name}.c
+```
 
 - build module
 ```
