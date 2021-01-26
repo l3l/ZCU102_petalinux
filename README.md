@@ -105,6 +105,18 @@ $ vi /tools/Xilinx/PetaLinux/2018.3/zcu102-petalinuxbase/project-spec/meta-user/
   };
 ```
 
+### Configure the kernel module
+- make module
+```
+```
+
+- compiled directory
+```
+$ cd /tools/Xilinx/PetaLinux/2018.3/zcu102-petalinuxbase/build/tmp/sysroots-components/zcu102_zynqmp/psr64/lib/modules/4.14.0-xilinx-v2018.3/extra
+$ ls
+```
+
+
 ### Creating bootable linux image
 ```
 $ petalinux-build
