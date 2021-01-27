@@ -136,6 +136,11 @@ $ ls ${module_name}
 https://stackoverflow.com/questions/5947286/how-to-load-linux-kernel-modules-from-c-code
 ```
 
+- device module
+```
+https://m.blog.naver.com/PostView.nhn?blogId=jjong_w&logNo=60157236703&proxyReferer=https:%2F%2Fwww.google.com%2F
+```
+
 
 ### Creating bootable linux image
 ```
