@@ -131,6 +131,11 @@ $ cd /tools/Xilinx/PetaLinux/2018.3/zcu102-petalinuxbase/build/tmp/sysroots-comp
 $ ls ${module_name}
 ```
 
+- insmod and rmmod in C
+```
+https://stackoverflow.com/questions/5947286/how-to-load-linux-kernel-modules-from-c-code
+```
+
 
 ### Creating bootable linux image
 ```
