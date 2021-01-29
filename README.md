@@ -123,6 +123,8 @@ vi ${module_name}.c
 - build module
 ```
 $ petalinux-build -c ${module_name}
+$ petalinux-build
+$ petalinux-package --boot --fsbl images/linux/zynqmp_fsbl.elf --u-boot images/linux/u-boot.elf --force
 ```
 
 - compiled directory
