@@ -260,6 +260,12 @@ echo $PETALINUX
 CC = /tools/Xilinx/PetaLinux/2018.3/tools/linux-i386/aarch64-none-elf/bin/aarch64-none-elf-gcc 
 ```
 
+### Vivado
+- Download constraint file
+```
+https://www.xilinx.com/member/forms/download/design-license.html?cid=473474&filename=zcu102-xdc-rdf0405.zip
+```
+
 
 ## Changelog
 
