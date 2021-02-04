@@ -168,7 +168,7 @@ IMAGE_CLASSES_remove = "image-types-xilinx-qemu qemuboot-xilinx cpio cpio.gz cpi
 IMAGE_FSTYPES_remove = "wic.qemu-sd cpio cpio.gz cpio.bz2 cpio.xz cpio.lzma cpio.lz4 cpio.gz.u-boot"
 ```
 
-Remove the build components
+When remove the build components
 ```
 $ petalinux-build -x mrproper
 ```
