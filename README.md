@@ -110,7 +110,7 @@ $ vi /tools/Xilinx/PetaLinux/2018.3/zcu102-petalinuxbase/project-spec/meta-user/
 ```
 $ export baseDir /tools/Xilinx/PetaLinux/2018.3/zcu102-petalinuxbase
 $ cd ${baseDir}
-$ export module_name <module name>
+$ export module_name=<module name>
 $ petalinux-create -t modules --name ${module_name} --enable
 ```
 
