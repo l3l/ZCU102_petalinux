@@ -157,6 +157,17 @@ $ cp images/linux/rootfs.tar.gz ~/build_results
 ```
 Go to `Copy to SD card`
 
+If error happens,
+```
+$ cd /tools/Xilinx/PetaLinux/2018.3/zcu102-petalinuxbase/project-spec/meta-user/conf
+$ vi petalinuxbsp.conf
+```
+```
+#Remove all qemu contents
+IMAGE_CLASSES_remove = "image-types-xilinx-qemu qemuboot-xilinx cpio cpio.gz cpio.bz2 cpio.xz cpio.lzma cpio.lz4 cpio.gz.u-boot"
+IMAGE_FSTYPES_remove = "wic.qemu-sd cpio cpio.gz cpio.bz2 cpio.xz cpio.lzma cpio.lz4 cpio.gz.u-boot"
+```
+
 ```
 $ petalinux-build -x mrproper
 ```
