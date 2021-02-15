@@ -149,13 +149,15 @@ https://m.blog.naver.com/PostView.nhn?blogId=jjong_w&logNo=60157236703&proxyRefe
 ### Creating bootable linux image
 ```
 $ petalinux-build
-$ petalinux-package --boot --fsbl images/linux/zynqmp_fsbl.elf --u-boot images/linux/u-boot.elf --pmufw images/linux/pmufw.elf --atf images/linux/bl31.elf --fpga images/linux/system.bit --force
-or
 $ petalinux-package --boot --fsbl images/linux/zynqmp_fsbl.elf --u-boot images/linux/u-boot.elf --force
 
 $ cp images/linux/BOOT.BIN ~/build_results
 $ cp images/linux/image.ub ~/build_results
 $ cp images/linux/rootfs.tar.gz ~/build_results
+```
+or
+```
+$ petalinux-package --boot --fsbl images/linux/zynqmp_fsbl.elf --u-boot images/linux/u-boot.elf --pmufw images/linux/pmufw.elf --atf images/linux/bl31.elf --fpga images/linux/system.bit --force
 ```
 Go to `Copy to SD card`
 
