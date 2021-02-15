@@ -168,7 +168,7 @@ IMAGE_CLASSES_remove = "image-types-xilinx-qemu qemuboot-xilinx cpio cpio.gz cpi
 IMAGE_FSTYPES_remove = "wic.qemu-sd cpio cpio.gz cpio.bz2 cpio.xz cpio.lzma cpio.lz4 cpio.gz.u-boot"
 ```
 ```
-IMAGE_FSTYPES_remove = "cpio.gz cpio cpio.gz.u-boot cpio.bz2"
+IMAGE_FSTYPES_remove = "wic.qemu-sd cpio.gz cpio cpio.gz.u-boot cpio.bz2"
 ```
 
 When remove the build components
