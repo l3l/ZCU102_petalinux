@@ -181,6 +181,12 @@ When remove the build components
 $ petalinux-build -x mrproper
 ```
 
+### Device tree
+```
+cd /tools/Xilinx/PetaLinux/2018.3/zcu102-petalinuxbase/components/plnx_workspace/device-tree/device-tree
+vi pl.dtsi
+```
+
 ### SD card
 1. #### Generate SD card partition
 ```
