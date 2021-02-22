@@ -155,7 +155,7 @@ $ cp images/linux/BOOT.BIN ~/build_results
 $ cp images/linux/image.ub ~/build_results
 $ cp images/linux/rootfs.tar.gz ~/build_results
 ```
-or
+If build error happens, do package as follows
 ```
 $ petalinux-package --boot --fsbl images/linux/zynqmp_fsbl.elf --u-boot images/linux/u-boot.elf --pmufw images/linux/pmufw.elf --atf images/linux/bl31.elf --fpga images/linux/system.bit --force
 ```
