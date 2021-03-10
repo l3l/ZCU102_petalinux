@@ -70,11 +70,12 @@ $ petalinux-config -c kernel
 ```
 
 ```
-Disable 'General setup > Initial RAM file system and RAM disk (initramfs/initrd) support'  
-Disable 'Bus Support > PCI support'  
 Enable 'Kernel hacking > Tracers > Kernel Function Tracer'  
 ```
+Your choice:
 ```
+Disable 'General setup > Initial RAM file system and RAM disk (initramfs/initrd) support'  
+Disable 'Bus Support > PCI support'  
 Enable 'Device Drivers > Hardware Monitoring support > PMBus support > Maxim MAX20751'  
 ```
 It needs to connect IPs in PL section.
