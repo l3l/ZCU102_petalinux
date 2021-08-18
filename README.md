@@ -130,6 +130,7 @@ vi ${module_name}.c
 $ petalinux-build -c ${module_name}
 $ petalinux-build
 $ petalinux-package --boot --fsbl images/linux/zynqmp_fsbl.elf --u-boot images/linux/u-boot.elf --force
+$ petalinux-package --boot --fsbl images/linux/zynqmp_fsbl.elf --u-boot images/linux/u-boot.elf --pmufw images/linux/pmufw.elf --atf images/linux/bl31.elf --fpga images/linux/system.bit --force
 ```
 
 - compiled directory
