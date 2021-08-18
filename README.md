@@ -138,6 +138,12 @@ $ cd /tools/Xilinx/PetaLinux/2018.3/zcu102-petalinuxbase/build/tmp/sysroots-comp
 $ ls ${module_name}
 ```
 
+- remove module
+```
+$ vi <plnx-proj-root>/project-spec/meta-plnx-generated/recipes-core/images/petalinux-image.bbappend
+```
+remove the unnecessary module
+
 - insmod and rmmod in C
 ```
 https://stackoverflow.com/questions/5947286/how-to-load-linux-kernel-modules-from-c-code
